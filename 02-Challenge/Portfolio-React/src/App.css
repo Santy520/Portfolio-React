@@ -1,42 +1,189 @@
+
 #root {
+ 
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+nav {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: #1c1e25;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+left {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+left h1 {
+  font-size: 30px;
+  margin: 0;
+  display: inline;
+  position: relative;
+}
+
+h1 {
+  background-color: lightblue;
+  color: #1c1e25;
+  padding: 5px 20px;
+  position: relative;
+  margin-left: 20px;
+}
+
+right ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.link {
+  margin: 0 10px;
+  text-decoration: underline;
+  color: lightblue;
+}
+
+
+.img {
+  position: relative;
+  text-align: center;
+}
+
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  background-color: lightblue;
+  padding: 5px;
+}
+
+.text h3 {
+  margin: 0;
+  color: #1c1e25;
+}
+
+.about-me-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.about-me-text {
+  flex: 1;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.body {
+  flex: .2;
+  margin-right: 10px;
+  margin-left: 120px;
+  text-align: right 10px;
+}
+
+.body1 {
+  flex: .2;
+  margin-right: 10px;
+  margin-left: 120px;
+  text-align: right 20px;
+}
+
+.body,
+.body1 {}
+
+p {
+    flex: 2; 
+    margin-top: 50px;
+    margin-right: 100px;
+
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.contact-me {
+  flex: 1;
+  position: relative;
+  align-items: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.image-edit {
+  width: 400px;
+  height: 200px;
+  background-color: lightblue;
+  border: solid lightblue 5px;
+
+
+
 }
 
-.card {
-  padding: 2em;
+#image-edit {
+  width: 820px;
+  height: 400px;
+  background-color: lightblue;
+  border: solid lightblue 5px;
+  margin: 1%;
+  padding: 0;
+  margin-right: 16px;
 }
 
-.read-the-docs {
-  color: #888;
+.body-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
+
+.body-image-text {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-edit:hover,
+#image-edit:hover {
+  opacity: 70%;
+}
+
+#sub-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#sub-images div {
+  position: relative;
+}
+
+.image-text-1 {
+  padding: 10px;
+  background-color: lightblue;
+  position: absolute;
+  top: 80px;
+}
+
+.main-image {
+  position: relative;
+}
+
+.image-text-0 {
+  position: absolute;
+  background-color: lightblue;
+  padding: 10px;
+  top: 180px;
+  left: 10px;
+
+} */

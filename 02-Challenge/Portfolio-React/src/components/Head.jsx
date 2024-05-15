@@ -6,13 +6,15 @@ function Header() {
     return (
         <header>
             <nav>
+                <h1 className='left'>Santiago Palacio</h1>
 
-                <h1 >Santiago Palacio</h1>
+                <ul className='right'>
+                    <Link className='link' to="/About Me">About Me</Link>
+                    <Link className='link' to="/Portfolio">Portfolio</Link>
+                    <Link className='link' to="/Contacte">Contact</Link>
+                    <Link className='link' to="/Resume">Resume</Link>
+                </ul>
 
-                <Link to="/About Me">About Me</Link>
-                <Link to="/Portfolio">Portfolio</Link>
-                <Link to="/Contacte">Contact</Link>
-                <Link to="/Resume">Resume</Link>
 
             </nav>
         </header>
