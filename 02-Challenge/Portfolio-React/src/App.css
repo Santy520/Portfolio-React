@@ -100,9 +100,6 @@ right ul {
   text-align: right 20px;
 }
 
-.body,
-.body1 {}
-
 p {
     flex: 2; 
     margin-top: 50px;
@@ -186,4 +183,44 @@ p {
   top: 180px;
   left: 10px;
 
-} */
+} 
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+span {
+  color: red;
+  font-size: 12px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

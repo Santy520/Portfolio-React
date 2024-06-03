@@ -16,13 +16,13 @@
 
 // export default Navigation
 
-import { Link } from 'react-router-dom';
+import image from "../assets/aXqYR1.png"
 
 function Navigation() {
   return (
     <navigation>
       <div className="img">
-      <Link to="../assets/aXqYR1.png">Banner Image</Link>
+      <img src={image} alt="Banner Image" className="image" />
         <div className="text">
           <h3>Eighty percent of success is showing up!</h3>
         </div>
