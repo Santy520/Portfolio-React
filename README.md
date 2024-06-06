@@ -43,4 +43,4 @@
   
   # Image
 
-  ![Screen Shot](.//dist/assets/Screenshot%202024-06-05%20at%2010.30.41 PM.png)
+  ![Screen Shot](.//src/assets/Screenshot%202024-06-05%20at%2010.30.41 PM.png)
