@@ -14,6 +14,7 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
+  * [Deployment](#deployment)
   * [Image](#image
   )
   
@@ -39,7 +40,17 @@
   
   # Questions
   
-  If you have any questions about the repo, open an issue or contact santy520 directly sspalacio20@gmail.com.
+  If you have any questions about the repo, open an issue or contact:
+
+  Github: santy520 
+
+  Email: sspalacio20@gmail.com
+
+  # Deployment
+
+  Github: https://github.com/Santy520/Portfolio-React
+
+  Netlify: https://66611e8286958d290cb9ae3e--velvety-cascaron-20f183.netlify.app/
   
   # Image
 
